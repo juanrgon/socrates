@@ -16,9 +16,30 @@ Then use:
 
 Pi also exposes the skill directly as `/skill:socrates`.
 
-## Install in other agents
+## Install in Claude Code
 
-Clone or copy this repository into your agent's skills directory.
+```bash
+mkdir -p ~/.claude/skills
+git clone https://github.com/juanrgon/socrates.git ~/.claude/skills/socrates
+```
+
+## Install in Codex CLI
+
+```bash
+mkdir -p ~/.codex/skills
+git clone https://github.com/juanrgon/socrates.git ~/.codex/skills/socrates
+```
+
+## Install in Copilot CLI
+
+```bash
+mkdir -p ~/.copilot/skills
+git clone https://github.com/juanrgon/socrates.git ~/.copilot/skills/socrates
+```
+
+Restart the CLI after installing so it discovers the skill.
+
+If you use multiple agents, clone the repository once and symlink it into each skills directory instead of maintaining duplicate clones.
 
 ## How it works
 
