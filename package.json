@@ -1,0 +1,19 @@
+{
+  "name": "socrates-agent-skill",
+  "version": "0.1.0",
+  "description": "A Socratic teaching skill for coding agents",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "agent-skill",
+    "socratic-method"
+  ],
+  "pi": {
+    "skills": [
+      "./SKILL.md"
+    ],
+    "prompts": [
+      "./prompts/socrates.md"
+    ]
+  }
+}
